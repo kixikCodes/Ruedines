@@ -7,7 +7,7 @@ echo Installating...
 cp ./ruedines.h ../ruedines.h
 cp ./ruedines.a ../ruedines.a
 cp ./README.md ../README.md
-cp ./compile.sh /usr/local/bin/compile
+cp ./run.sh /usr/local/bin/run
 cd ..
 rm -rf Ruedines/
 mkdir ruedines
