@@ -14,7 +14,7 @@ if [ ! -f "$LIBFILE" ]; then
     exit 1
 fi
 
-gcc "$SOURCEFILE" "$LIBFILE" -o "$OUTNAME"
+cc -Wall -Wextra -Werror "$SOURCEFILE" "$LIBFILE" -o "$OUTNAME"
 
 if [ $? -eq 0 ]; then
     echo "Built executable: $OUTNAME"
