@@ -6,7 +6,7 @@ cd Ruedines/
 ./build.sh
 cp ./ruedines.a ../ruedines.a
 cp ./README.md ../README.md
-cp ./compile.sh ~/bin/compile
+cp ./compile ~/bin/compile
 export PATH=$PATH:~/bin
 cd ..
 rm -rf Ruedines/
