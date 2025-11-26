@@ -1,5 +1,10 @@
 # My first C Cheatsheet 👼
 
+Ruedines single install command:
+```sh
+git clone https://github.com/kixikCodes/Ruedines && cd Ruedines/ && sudo ./install.sh && cd ..
+```
+
 #### Quick essentials:
 In C the `;` marks the end of an instruction.
 If an instruction contains other instructions, we contain them between `{ }` (with no need for `;` after the braces).

@@ -7,7 +7,7 @@ fi
 
 SOURCEFILE="$1"
 OUTNAME="${SOURCEFILE%.c}"
-LIBFILE="ruedines.a"
+LIBFILE="ruedines/ruedines.a"
 
 if [ ! -f "$LIBFILE" ]; then
     echo "Error: $LIBFILE not found."
